@@ -1,0 +1,29 @@
+{
+  "name": "napi-play",
+  "version": "1.0.0",
+  "description": "Basic application to incorporate NAPI with Microsoft Visual C++ debugging in VSCode ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:native": "node-gyp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikv/napi-play.git"
+  },
+  "keywords": [
+    "napi",
+    "cpp",
+    "addon"
+  ],
+  "author": "Pratik Vakil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikv/napi-play/issues"
+  },
+  "homepage": "https://github.com/pratikv/napi-play#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.0.0"
+  }
+}
